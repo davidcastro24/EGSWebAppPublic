@@ -1,0 +1,367 @@
+@font-face {
+  font-family: "Dosis";
+  src: url("/fonts/Dosis-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Dosis";
+  src: url("/fonts/Dosis-VariableFont_wght.ttf") format("truetype");
+  font-weight: bold;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Dosis";
+  src: url("/fonts/Dosis-VariableFont_wght.ttf") format("truetype");
+  font-weight: bold;
+}
+
+.headercontainer {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  background-color: black;
+}
+.headercontainer .headertop {
+  border-bottom: 1px solid #cccccc4a;
+}
+.headercontainer .headertop .left-item ul li {
+  float: left;
+  color: #fff;
+  padding: 12px;
+  font-size: 0.9rem;
+}
+.headercontainer .headertop .left-item ul li {
+  color: #fff;
+}
+.headercontainer .headertop .right-item ul {
+  float: right;
+}
+.headercontainer .headertop .right-item ul li {
+  float: left;
+  color: #fff;
+  padding: 12px;
+}
+
+.headercontainer .headertop .right-item ul li a{
+  float: left;
+  color: #fff;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.fontaws {
+  color:#fff;
+}
+
+nav .logo {
+  padding: 8px;
+}
+nav .logo .log {
+  margin-top: 8px;
+}
+
+nav .logo .loggray {
+  margin-top: 8px;
+}
+
+nav .loggray {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  nav .container {
+    padding: 0px 10px !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  nav .navdiv {
+    background-color: #fff;
+  }
+}
+nav .navdiv ul {
+  float: right;
+}
+
+nav .navdiv ul li Link {
+  text-decoration: none;
+}
+@media screen and (max-width: 767px) {
+  nav .navdiv ul {
+    margin-top: 5px;
+    width: 100%;
+  }
+}
+nav .navdiv ul li {
+  float: left;
+  padding: 27px 15px;
+  font-size: 0.9rem;
+}
+nav .navdiv ul li a {
+  color: #fff;
+  font-family: "Dosis", sans-serif;
+}
+@media screen and (max-width: 767px) {
+  nav .navdiv ul li a {
+    color: #444;
+  }
+}
+@media screen and (max-width: 1033px) {
+  nav .navdiv ul li {
+    padding: 27px 10px;
+  }
+}
+@media screen and (max-width: 939px) {
+  nav .navdiv ul li {
+    font: 0.8rem;
+    padding: 27px 5px;
+  }
+}
+@media screen and (max-width: 767px) {
+  nav .navdiv ul li {
+    float: none;
+    padding: 10px;
+    border-top: 1px solid #cccccc73;
+  }
+}
+@media screen and (max-width: 849px) {
+  nav .navdiv .yc {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  nav .logo .log {
+    width: 230px;
+    margin-top: 0px;
+    margin-left: 5px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  nav .logo .loggray {
+    width: 230px;
+    margin-top: 0px;
+    margin-left: 5px;
+  }
+}
+
+nav .small-menu {
+  float: right;
+  padding: 5px;
+  font-size: 27px;
+  color: #fff;
+}
+
+.scroll-to-fixed-fixed {
+  background-color: #fff;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+.scroll-to-fixed-fixed .log {
+  display: none;
+}
+.scroll-to-fixed-fixed .loggray {
+  display: block;
+}
+@media screen and (max-width: 767px) {
+  .scroll-to-fixed-fixed .navdiv {
+    background-color: #fff;
+  }
+}
+.scroll-to-fixed-fixed .navdiv ul li a {
+  color: #444;
+}
+.scroll-to-fixed-fixed .small-menu {
+  color: #444;
+  margin-top: -42px;
+  margin-right: 5px;
+}
+
+#menu-jk {
+  position: relative;
+}
+
+
+
+.headercontainer .headertop {
+  border-bottom: 1px solid #cccccc4a;
+  height: 50px;
+}
+
+.headercontainer .headertop .left-item ul li {
+  float: left;
+  color: #fff;
+  padding: 12px 12px 0 0px;
+  font-size: 1rem;
+}
+
+.headercontainer .headertop .left-item ul li i {
+  color: #fff;
+}
+
+.headercontainer .headertop .right-item ul {
+  float: right;
+}
+
+.headercontainer .headertop .right-item ul li {
+  float: left;
+  color: #fff;
+  padding: 0 12px 0 12px;
+}
+
+.headercontainer .headertop .right-item ul li a {
+  font-size: 1.1rem;
+}
+
+nav .logo .log {
+  margin-top: 8px;
+  padding: 0px 0px 8px 12px;
+}
+
+nav .logo .loggray {
+  margin-top: 8px;
+  padding: 8px;
+}
+
+nav .loggray {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  nav .container {
+    padding: 0px 10px !important;
+  }
+}
+
+nav .navdiv ul {
+  float: right;
+}
+
+@media screen and (max-width: 767px) {
+  nav .navdiv ul {
+    margin-top: 5px;
+    width: 100%;
+  }
+}
+
+nav .navdiv ul li {
+  float: left;
+  padding: 27px 15px;
+  font-size: 0.9rem;
+}
+
+nav .navdiv ul li a {
+  color: #fff;
+  font-family: "Dosis";
+  font-size: medium;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  nav .navdiv ul li a {
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 1033px) {
+  nav .navdiv ul li {
+    padding: 27px 10px;
+  }
+}
+
+@media screen and (max-width: 939px) {
+  nav .navdiv ul li {
+    font-size: 0.8rem;
+    padding: 27px 5px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  nav .navdiv ul li {
+    float: none;
+    padding: 10px;
+    border-top: 1px solid #cccccc73;
+  }
+}
+
+@media screen and (max-width: 849px) {
+  nav .yc {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  nav .logo .log {
+    width: 230px;
+    margin-top: 0px;
+    margin-left: 5px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  nav .logo .loggray {
+    width: 230px;
+    margin-top: 0px;
+    margin-left: 5px;
+  }
+}
+
+nav .small-menu {
+  float: right;
+  padding: 5px;
+  font-size: 27px;
+  color: #fff;
+}
+
+.scroll-to-fixed-fixed {
+  background-color: #fff;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-to-fixed-fixed .log {
+  display: none;
+}
+
+.scroll-to-fixed-fixed .loggray {
+  display: block;
+}
+
+.scroll-to-fixed-fixed .navdiv ul li a {
+  color: #444;
+}
+
+.scroll-to-fixed-fixed .small-menu {
+  color: #444;
+  margin-top: -42px;
+  margin-right: 5px;
+}
+
+.transparentNavbar {
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: background-color 0.3s ease-in-out; 
+}
+
+.topNavbar {
+background-color: black;
+}
+
+.drop {
+  color: white !important;
+  font-size: 1.3rem;
+  text-decoration: none;
+  
+}
+
+.drop .nav-link {
+  color: white !important;
+}
+
+.dropdownItem {
+  font-size: 1.3rem;
+}
+
+.dropdownMenu {
+  margin-top: 0.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}

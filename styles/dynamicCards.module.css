@@ -1,0 +1,9 @@
+.card:hover{
+    transform: scale(1.1);
+}
+
+.selectedCard {
+    border-color: rgb(0, 68, 255);
+    box-shadow: 0 0 10px rgb(0, 68, 255);
+
+  }
