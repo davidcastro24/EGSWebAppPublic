@@ -19,8 +19,8 @@ export default async function sendEmail(req, res) {
       },
     });
     const mailOptions = {
-      from: "evolvesmtp@gmail.com",
-      to: "contact@evolveglobalsolutions.com",
+      from: "XXXXXXXXX",
+      to: "XXXXXXXXX",
       subject: subject, 
       text: message,
     };
