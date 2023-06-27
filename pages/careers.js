@@ -294,7 +294,7 @@ const Careers = ({ jobs, allSkills }) => {
 };
 
 export async function getStaticProps() {
-  const databaseId = "66723dedfdd84110b94ee0fe65e10509";
+  const databaseId = "XXXXXXXXXXXXXXXXX";
   const endpoint =
     "https://api.notion.com/v1/databases/" + databaseId + "/query";
   const requestOptions = {
@@ -303,7 +303,7 @@ export async function getStaticProps() {
       "Content-Type": "application/json",
       "Notion-Version": "2022-06-28",
       Authorization:
-        "Bearer secret_RemmAgpKByf1YekRNgbWlr874ceero73kOV6CYUacN3",
+        "XXXXX XXXXXXXXX",
     },
   };
   const response = await fetch(endpoint, requestOptions);
